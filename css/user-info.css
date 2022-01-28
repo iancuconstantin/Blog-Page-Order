@@ -1,0 +1,95 @@
+body{
+    background-color: #A69E94;
+    background: #A69E94;  /* fallback for old browsers */
+    background: linear-gradient(#A69E94, #F2F2F0);
+    background: -webkit-linear-gradient(#A69E94, #F2F2F0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient( #A69E94, #F2F2F0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+body > nav{
+    background-color: #D9D8D7;
+}
+#navbarNavAltMarkup{
+    justify-content: flex-end;
+}
+#navbarNavAltMarkup > div > a:nth-child(1){
+    border: 5px solid #A69E94;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 20px;
+}
+#navbarNavAltMarkup > div > a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#navbarNavAltMarkup > div > a:nth-child(2){
+    border: 5px solid #A69E94;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 20px;
+}
+body > div > div > div.col-2.d-flex.flex-column.gap-2.pe-0 > button.btn-sm.my-3.shadow:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+body > div > div > div.col-2.d-flex.flex-column.gap-2.pe-0 > button:nth-child(2):hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.profile{
+    height: 4em;
+    width: 4em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+h1{
+    cursor: default;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.btn{
+    background-color: #A69E94;
+    border: 5px solid #D9D8D7;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 20px;
+}
+#home > a{
+    text-decoration: none;
+    color: #403022;
+}
+#home > a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.btn > a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#edit > a{
+    text-decoration: none;
+    color: #403022;
+}
+#edit > a:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.container{
+    min-height: 100vh;
+}
+/* CARD */
+.card-body{
+    color: #403022;
+}
+/* FOOTER */
+body > footer > ul > li:nth-child(1) > a > svg > path{
+    color: blue;
+}
+body > footer > ul > li:nth-child(2) > a > svg > path{
+    color: lightskyblue;
+}
+body > footer > ul > li:nth-child(3) > a > svg > path{
+    color: red;
+}
+body > footer{
+    background-color: #D9D8D7;
+}
